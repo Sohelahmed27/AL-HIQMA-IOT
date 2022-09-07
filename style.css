@@ -1,3 +1,8 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+
 .carousel-item::before{
   content:"";
   display: block;
@@ -8,7 +13,6 @@
   right:0;
   background:rgba(0,0,0,0.6);
   }
-  /* .card img{
-    height:200px;
-    width:200px;
-  } */
+.explore{
+  background:#F4FAFD
+}
