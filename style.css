@@ -16,3 +16,8 @@ body{
 .explore{
   background:#F4FAFD
 }
+.company img{
+  width:170px;
+  height:40px;
+  padding:10px; 
+}
