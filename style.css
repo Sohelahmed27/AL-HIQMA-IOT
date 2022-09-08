@@ -12,7 +12,10 @@ body{
   left:0;
   right:0;
   background:rgba(0,0,0,0.6);
-  }
+  margin-right: auto;
+  margin-left: auto;
+}
+  
 .explore{
   background:#F4FAFD
 }
@@ -25,4 +28,41 @@ footer img{
   width:50px;
   height:50px;
   padding:10px;
+}
+@media only screen and (max-width:767px){
+  .Trusted{
+       display:none;
+  }
+  .courses {
+    display: flex!important;
+    flex-direction: column;
+    gap-between:10px;
+    image-align:center;
+
+}
+.success{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 350px;
+  height:400px;
+  gap-between:10px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width:991px){
+  .Trusted{
+    display:none;
+}
+.success{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 350px;
+  height:400px;
+  gap-between:10px;
+}
 }
